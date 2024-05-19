@@ -69,4 +69,6 @@ curl -XPOST https://localhost:9200/movies/_update/109487?pretty -d '
 }
 }'
 
+**D:** Delete a specific document
+curl -XDELETE https://localhost:9200/movies/_doc/58559
 
