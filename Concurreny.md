@@ -1,0 +1,2 @@
+- Before updating anything, check for sequence number(_seq_num) and then update.
+- Use `retry_on_conflicts=5` for updating anything, so that if there is any conflict it will automatically retry update.
